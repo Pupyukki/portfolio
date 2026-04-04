@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My first webpage!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="header1">Yuktha's webpage</h1>
+    </header>
+    <hr>
+    <div class="container">
+        <section id="AboutMe">
+            <p class="para">My name is Yuktha Sree Nareddy.I was born in A.P, India. I am 13 years old and my birthday
+                is on the 2nd of July.I have one younger brother. I live in France with my family.</p>
+            <hr>
+            <img id="profilepic" src="yuktha.jpeg">
+            <hr>
+        </section>
+        <section id="hobbies">
+            <h2>MY HOBBIES</h2>
+            <p class="para"> I love to dance. I am learning Kuchipudi. I started dancing since i was 6 years old. In
+                kuchipudi there are 5 different "JATHI", thus there are different steps in each JATHI. Here are the list
+                of JATHIS:
+            <div class="lists">
+                <ul>
+                    <li>CHATHURASHRAM : 4 OR 8 BEATS </li>
+                    <li>THISHRAM : 3 OR 6 BEATS </li>
+                    <li>MISHRAM : 7 BEATS </li>
+                    <li>KHANDAM : 5 BEATS </li>
+                    <li>SANKEERNAM : 9 BEATS </li>
+                </ul>
+            </div>
+            </p>
+            <br>
+            <p class="para">I like to do mandala art beacause i find it very therapatic and soothing.</p>
+            <br><br>
+            <hr>
+        </section>
+        <section id="my_videos">
+            <h2>My dance videos</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iv4_bxebfnU?si=GikOiBSh9Q5pk6jd"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br><br>
+            <hr>
+        </section>
+        <section class="jathis">
+            <h2 class="sub-heading">JATHIS</h2>
+            <div class="grid-container">
+                <div class="grid-view">
+                    <img class="images" alt="CHATHURASHRAM"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3x2MB0niVETNfpcnZ9_NnfwkHyWL0vm5Jfg&s">
+                    <br><br>
+                    <p class="para">Chaturashram consists of 4 or 8 beats per step.</p>
+                </div>
+
+                <div class="grid-view">
+                    <img class="images" alt="THISHRAM"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kuchipudi_Performer_DS.jpg/960px-Kuchipudi_Performer_DS.jpg">
+                    <br><br>
+                    <p class="para">Thishram consists of 3 beats per step.</p>
+                </div>
+
+                <div class="grid-view">
+                    <img class="images" alt="MISHRAM"
+                        src="https://i.pinimg.com/736x/45/74/ec/4574ec0a6822fbf4dfad3283568f9cbd.jpg">
+                    <br><br>
+                    <p class="para">Mishram consists of 7 beats per step.</p>
+                </div>
+
+                <div class="grid-view">
+                    <img class="images" alt="KHANDAM"
+                        src="https://serenademagazine.com/content/images/size/w1200/wp-content/uploads/2023/08/1599px-kuchipudi_dancer_nitya_yelamanchili_tarangam.webp">
+                    <br><br>
+                    <p class="para">Khandam consists of 5 beats per step.</p>
+                </div>
+
+                <div class="grid-view">
+                    <img class="images" alt="SANKEERNAM"
+                        src="https://global-music-academy.net/wp-content/uploads/2024/08/Kuchipudi.jpg">
+                    <br><br>
+                    <p class="para">Sankeernam consists of 9 beats per step.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2 class="sub-heading">Contact me</h2>
+            <div>
+                <img class="icon" src="https://img.icons8.com/?size=100&id=12623&format=png">
+                <h5 id="email">yukthasree.nareddy@gmail.com</h5>
+            </div>
+            <div>
+                <img class="icon" src="https://img.icons8.com/?size=100&id=53439&format=png">
+                <h5 id="phone">+33 780883395</h5>
+            </div>
+            <br><br>
+            <div>
+                <button id="ctbtn" type="button" onclick="thanks()">Get In Touch</button>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
