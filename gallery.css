@@ -1,0 +1,69 @@
+body{
+    padding: 20px;
+    background-color: #034f9b;
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.carousel{
+    box-shadow: 0 4px 15px rgba(128, 128, 128, 0.91);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.carousel-item img:hover{
+    transform:scale(1.05);
+}
+.carousel-indicators{
+    bottom: -3%;
+}
+.carousel-indicators li{
+    background-color: rgba(255, 192, 203, 0.729);
+}
+.carousel-indicators li:hover{
+    background-color: rgb(244, 244, 167);
+}
+.carousel-indicators .active{
+    background-color: rgb(226, 155, 167);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover{
+    opacity: 1;
+}
+.carousel-caption p{
+    text-align: center;
+    margin-left: 10px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.948);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0,0.8);
+    font-size: 1.5rem;
+}
+.carousel-caption h5{
+    font-size: 2rem;
+}
